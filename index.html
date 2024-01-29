@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Food Services | MyOnlineMeal </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:970px)" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 </head>
 
@@ -28,23 +29,29 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa obcaecati.</p>
         <button class="btn">Order Now</button>
     </section>
-    <section class="services-container">
+    <section id="services-container">
         <h1 class="h-primary center">Our Services </h1>
         <div id="services">
             <div class="box">
                 <img src="img/pizza-3007395_1280.jpg" alt="">
                 <h2 class="h-secondary center">Food catering</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis optio illo nulla. Voluptatem, modi officiis?</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error
+                    numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis
+                    optio illo nulla. Voluptatem, modi officiis?</p>
             </div>
             <div class="box">
                 <img src="img/istockphoto-518244098-612x612.jpg" alt="">
                 <h2 class="h-secondary center">Bulk Food</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis optio illo nulla. Voluptatem, modi officiis?</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error
+                    numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis
+                    optio illo nulla. Voluptatem, modi officiis?</p>
             </div>
             <div class="box">
                 <img src="img/man-6051503_640.webp" alt="">
                 <h2 class="h-secondary center"> Ordering</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis optio illo nulla. Voluptatem, modi officiis?</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sapiente saepe error
+                    numquam officia dolore maiores provident at, adipisci voluptates dolorem. Similique quis blanditiis
+                    optio illo nulla. Voluptatem, modi officiis?</p>
             </div>
         </div>
     </section>
@@ -74,16 +81,17 @@
                     <input type="text" name="name" name="name" placeholder="Enter your name">
                 </div>
                 <div class="form-group">
-                    <label for="name">Email: </label>
-                    <input type="email" name="name" name="name" placeholder="Enter your email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
                 </div>
                 <div class="form-group">
-                    <label for="name">Phone: </label>
-                    <input type="phone" name="name" name="name" placeholder="Enter your phone number">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
                 </div>
                 <div class="form-group">
-                    <label for="name">Message: </label>
-                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Type a message..."></textarea>
                 </div>
             </form>
         </div>
