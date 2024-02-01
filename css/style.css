@@ -95,8 +95,8 @@
     display: flex;
 }
 
-
-/* #services-container::before{
+/* 
+#services-container::before{
     content: '';
     background: url(../img/salad-2068220_640.jpg) no-repeat center center/cover;
     height: 529px;
@@ -110,13 +110,13 @@
     padding: 34px;
     margin: 3px 25px;
     border-radius: 28px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233 230 230);
 }
 
 #services .box img {
     margin: auto;
     display: block;
-    height: 150px;
+    width: 84px;
 }
 
 
@@ -137,13 +137,13 @@
 
 
 #client-section {
-    height: 273px;
+    height: 100%;
 }
 
 #client-section::before {
     content: '';
     background: url(../img/the-beach-3266660_640.jpg) no-repeat center center/cover;
-    height: 273px;
+    height: 278px;
     width: 100%;
     opacity: 0.5;
     position: absolute;

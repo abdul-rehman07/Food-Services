@@ -31,10 +31,21 @@
     font-size: 26px;
 }
 
+#client-section::before {
+    height: 120%;
+}
 #clients {
-    overflow: hidden;
+flex-wrap: wrap;
 }
 .btn{
     font-size: 13px;
     padding: 4px 8px;
+}
+#contact::before {
+    opacity: 1.0;
+}
+#contact-box input,
+#contact-box textarea{
+    margin-bottom: 50px;
+    margin-top: 17px;
 }
